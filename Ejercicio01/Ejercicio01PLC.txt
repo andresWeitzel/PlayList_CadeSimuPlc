@@ -1,0 +1,5 @@
+Al presionar y mantener presionados los botones S1 y S2, se enciende el bombillo L1, 
+
+La salida Q1 debe quedar enclavada 
+
+El boton S3 apaga L1
