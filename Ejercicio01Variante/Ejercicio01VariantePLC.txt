@@ -1,0 +1,6 @@
+Para tener un estado alto en la salida Q3, debo tener y mantener un estado 
+alto de entrada en I2 junto con I5
+
+Una vez que se tenga el estado alto en la salida Q3 esta queda enclavada
+
+Con un estado alto en la entrada I3 apago los bombillos L2 Y L3
