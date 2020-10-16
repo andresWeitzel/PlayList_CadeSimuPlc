@@ -1,0 +1,13 @@
+El diagrama de fuerza debe estar formado por 2 bombillos(L2 y L3),
+
+un contacto que dependa de una bobina L1 y sus protecciones.
+
+--------------------------------------------------------------------------
+
+Para la diagramacion ladder si no se tiene un estado alto en I1 e I2 el bombillo L2 se enciende
+
+Si se tiene un estado alto en I1 o I2 el bombillo L3 se enciende, pero el L2 se apaga
+
+La salida Q1 debe quedar enclavada 
+
+El boton S3 o S4 apaga la bobina L1
