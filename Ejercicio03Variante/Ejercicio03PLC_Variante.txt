@@ -1,0 +1,5 @@
+Al presionar S1 o S2, conmuta la bobina L1, cambiando de estado su contacto
+
+Al presionar juntos  S3 y S4 o S5 se desconmuta L1
+
+La salida Q1 debe quedar enclavada 
