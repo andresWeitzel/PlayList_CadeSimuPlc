@@ -1,0 +1,15 @@
+Diseñar un circuito con plc que tenga en sus entradas n cantidad de interruptores 
+partiendo de un interruptor S1 en la entrada I1 y dos bobinas L1 Y L2  para las
+salidas Q1 Y Q2 respectivamente.
+
+El PLC tiene entradas en continua y salidas en alterna.
+
+En el circuito de potencia se debe tener dos contactos que dependan de las bobinas 
+y en la salida de cada contacto 1 piloto intermitente.
+
+La logica del circuito es la siguiente:
+
+Al presionar S1 Y S2 al mismo tiempo, las bobinas L1 y L2 conmutan y se enclavan
+S3 o S4 desconmuta solo la bobina L1
+S5 Y S4 desconmuta solo la bobina L2  
+ 
