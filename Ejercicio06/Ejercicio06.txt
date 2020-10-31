@@ -1,0 +1,17 @@
+Para que se prenda nuestro motor monofasico debemos tener energizada la bobina L1,
+ que a su vez conmutara un contacto de la misma encendiendo el motor, en caso de que
+exista un sobrecalentamiento del mismo se conmutara un contacto de un rele termico
+indicandonos la averia con un piloto intermitente
+
+Realizar la conexion de la proteccion pertinente para el motor
+ 
+El PLC tiene entradas en continua y salidas en alterna.
+
+En el circuito de potencia se debe tener el contacto que depende de la bobina L1, 
+el motor monofasico y sus respectivas protecciones
+
+La logica del circuito es la siguiente:
+
+Al presionar S1 o S2, la bobina L1 conmuta y la salida Q1 se enclava
+S3,S4 o S5 desconmuta la bobina L1 
+ 
