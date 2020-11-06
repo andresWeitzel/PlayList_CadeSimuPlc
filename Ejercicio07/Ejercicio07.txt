@@ -1,0 +1,23 @@
+Para que se encienda el motor monofasico 1 debemos tener energizada la bobina L1, para
+el motor monofasico 2 la bobina L3,que a su vez conmutaran los contactos correspondientes 
+de las mismas, encendiendo los motores, en caso de que exista un sobrecalentamiento se conmutara 
+un contacto del rele termico indicandonos la averia con un piloto intermitente.
+
+Cada motor tiene un circuito independiente.
+Realizar la conexion de la proteccion pertinente para cada motor
+ 
+El PLC tiene entradas en continua y salidas en alterna.
+
+En el circuito de potencia se deben tener los contactos que dependan de la bobina L1 y L3, 
+el motor monofasico y sus respectivas protecciones
+
+La logica del circuito es la siguiente:
+
+Al presionar S1 y S2 o S3, la bobina L1 conmuta y la salida Q1 se enclava
+
+Al presionar S1 o S2, la bobina L3 conmuta y la salida Q2 se enclava
+
+S4 o S5 desconmuta la bobina L1 
+
+S3 y S4 desconmuta la bobina L3
+ 
